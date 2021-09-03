@@ -4,6 +4,9 @@
     border: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 nav ul {
     text-align: left;
@@ -22,4 +25,8 @@ img {
 
 header {
     background-color: #F8DF1F;
+}
+
+.banner {
+    background-image: url("img/banner-bg.png");
 }
