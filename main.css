@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 10px;
+}
+
+img {
+    width: 100%;
+}
