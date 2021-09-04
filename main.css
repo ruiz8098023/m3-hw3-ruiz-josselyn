@@ -28,5 +28,17 @@ header {
 }
 
 .banner {
-    background-image: url("img/banner-bg.png");
+    background-image: url("img/banner-bg.png"), linear-gradient(#3B3838,#3B3838);
+    background-blend-mode: overlay;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.dinein_takeout {
+    background: #F3F3F3;
 }
