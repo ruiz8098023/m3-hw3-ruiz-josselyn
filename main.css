@@ -40,7 +40,7 @@ header {
     background-image: url("img/banner-bg.png"), linear-gradient(#3B3838,#3B3838);
     background-blend-mode: overlay;
     text-align: center;
-    padding: 30px 100px;
+    padding: 170px 30px;
 }
 
 .logo {
