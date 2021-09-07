@@ -1,3 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+nav ul li{
+  display: inline;
+  padding: 0 10px;
+}
+
 img {
   width: 100%;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #F8DF1F;
+  color: #050500;
+  border-radius: 8px;
+}
+
+header {
+  background-color: #F8DF1F;
+}
+
+.banner {
+  background-image: url("img/banner-bg.png"), linear-gradient(#3B3838,#3B3838);
+  background-blend-mode: overlay;
+  text-align: center;
+  padding: 170px 30px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 500px;
+}
+
+.dinein_takeout {
+  background: #F3F3F3;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  border-top: #F8DF1F 3px;
+  padding: 30px 0;
+}
+
+.footer_logo {
+  width: 100%;
+  max-width: 200px;
 }

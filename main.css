@@ -30,6 +30,8 @@ button {
     background-color: #F8DF1F;
     color: #050500;
     border-radius: 8px;
+    margin: 20px 0;
+    padding: 10px 50px;
 }
 
 header {
@@ -48,8 +50,24 @@ header {
     max-width: 500px;
 }
 
+.burger, .dinein_takeout  {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.burger img{
+    padding: 30px;
+    width: 275px;
+}
+
 .dinein_takeout {
     background: #F3F3F3;
+}
+
+.dinein_takeout img {
+    width: 200px;
+    padding: 30px;
 }
 
 footer {
@@ -62,4 +80,27 @@ footer {
 .footer_logo {
     width: 100%;
     max-width: 200px;
+}
+
+
+
+@media (min-width: 700px) {
+    .burger, .dinein_takeout {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .burger div, .dinein_takeout div {
+        width: 50%;
+    }
+
+    .burger img {
+        max-width: 200px;
+        width: 40%;
+    }
+
+    .dinein_takeout img {
+        width: 100%;
+        max-width: 300px;
+    }
 }
